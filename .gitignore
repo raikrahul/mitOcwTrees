@@ -1,0 +1,32 @@
+# Ignore Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Ignore directories
+/.vs/
+/x64/
+/Debug/
+/Release/
+/ipch/
+/out/
+
+# Ignore other build-related files
+*.obj
+*.pdb
+*.exe
+*.ilk
+*.idb
+*.lib
+*.log
+*.db
+*.cache
+
+# Ignore cmake-generated files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore any other files specific to your environment
+*.tlog
+*.lastbuildstate
